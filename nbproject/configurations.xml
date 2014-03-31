@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="vowpalwabbit">
+        <in>accumulate.cc</in>
+        <in>autolink.cc</in>
+        <in>bfgs.cc</in>
+        <in>binary.cc</in>
+        <in>bs.cc</in>
+        <in>cache.cc</in>
+        <in>cb.cc</in>
+        <in>cb_algs.cc</in>
+        <in>cbify.cc</in>
+        <in>cost_sensitive.cc</in>
+        <in>csoaa.cc</in>
+        <in>ect.cc</in>
+        <in>example.cc</in>
+        <in>gd.cc</in>
+        <in>gd_mf.cc</in>
+        <in>global_data.cc</in>
+        <in>hash.cc</in>
+        <in>io_buf.cc</in>
+        <in>lda_core.cc</in>
+        <in>learner.cc</in>
+        <in>loss_functions.cc</in>
+        <in>lrq.cc</in>
+        <in>mf.cc</in>
+        <in>multiclass.cc</in>
+        <in>network.cc</in>
+        <in>nn.cc</in>
+        <in>noop.cc</in>
+        <in>oaa.cc</in>
+        <in>parse_args.cc</in>
+        <in>parse_example.cc</in>
+        <in>parse_primitives.cc</in>
+        <in>parse_regressor.cc</in>
+        <in>parser.cc</in>
+        <in>print.cc</in>
+        <in>rand48.cc</in>
+        <in>scorer.cc</in>
+        <in>searn.cc</in>
+        <in>searn_sequencetask.cc</in>
+        <in>sender.cc</in>
+        <in>simple_label.cc</in>
+        <in>sparse_dense.cc</in>
+        <in>topk.cc</in>
+        <in>unique_sort.cc</in>
+        <in>wap.cc</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>vowpalwabbit/vw</executablePath>
+        </makeTool>
+      </makefileType>
+      <item path="vowpalwabbit/accumulate.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/autolink.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/bfgs.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/binary.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/bs.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/cache.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/cb.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/cb_algs.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/cbify.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/cost_sensitive.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/csoaa.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/ect.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/example.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/gd.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/gd_mf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/global_data.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/hash.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/io_buf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/lda_core.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/learner.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/loss_functions.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/lrq.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/mf.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/multiclass.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/network.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/nn.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/noop.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/oaa.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/parse_args.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/parse_example.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/parse_primitives.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/parse_regressor.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/parser.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/print.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/rand48.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/scorer.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/searn.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/searn_sequencetask.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/sender.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/simple_label.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/sparse_dense.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/topk.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/unique_sort.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="vowpalwabbit/wap.cc" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

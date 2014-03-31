@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="acinclude.d">
+      </df>
+      <df name="c_test">
+        <in>sample.c</in>
+      </df>
+      <df name="cluster">
+        <in>spanning_tree.cc</in>
+      </df>
+      <df name="cs_test">
+        <df name="Properties">
+        </df>
+      </df>
+      <df name="demo">
+        <df name="dna">
+          <in>quaddna2vw.cpp</in>
+        </df>
+        <df name="mnist">
+          <in>extractfeatures.cpp</in>
+          <in>extractpixels.cpp</in>
+          <in>pixelngrams.cpp</in>
+        </df>
+        <df name="movielens">
+        </df>
+        <df name="normalized">
+        </df>
+        <df name="random-noise">
+        </df>
+      </df>
+      <df name="library">
+        <df name="ezexample_predict.dSYM">
+          <df name="Contents">
+            <df name="Resources">
+              <df name="DWARF">
+              </df>
+            </df>
+          </df>
+        </df>
+        <df name="ezexample_train.dSYM">
+          <df name="Contents">
+            <df name="Resources">
+              <df name="DWARF">
+              </df>
+            </df>
+          </df>
+        </df>
+        <df name="gd_mf_weights.dSYM">
+          <df name="Contents">
+            <df name="Resources">
+              <df name="DWARF">
+              </df>
+            </df>
+          </df>
+        </df>
+        <df name="library_example.dSYM">
+          <df name="Contents">
+            <df name="Resources">
+              <df name="DWARF">
+              </df>
+            </df>
+          </df>
+        </df>
+        <df name="recommend.dSYM">
+          <df name="Contents">
+            <df name="Resources">
+              <df name="DWARF">
+              </df>
+            </df>
+          </df>
+        </df>
+        <in>ezexample.h</in>
+        <in>ezexample_predict.cc</in>
+        <in>ezexample_predict_threaded.cc</in>
+        <in>ezexample_train.cc</in>
+        <in>gd_mf_weights.cc</in>
+        <in>library_example.cc</in>
+        <in>recommend.cc</in>
+        <in>test.cc</in>
+      </df>
+      <df name="test">
+        <df name="pred-sets">
+          <df name="ref">
+          </df>
+        </df>
+        <df name="test-sets">
+          <df name="ref">
+          </df>
+        </df>
+        <df name="train-sets">
+          <df name="ref">
+          </df>
+        </df>
+      </df>
+      <df name="utl">
+      </df>
+      <df name="vowpalwabbit">
+        <df name="active_interactor.dSYM">
+          <df name="Contents">
+            <df name="Resources">
+              <df name="DWARF">
+              </df>
+            </df>
+          </df>
+        </df>
+        <df name="win32">
+        </df>
+        <in>accumulate.cc</in>
+        <in>accumulate.h</in>
+        <in>active_interactor.cc</in>
+        <in>allreduce.cc</in>
+        <in>allreduce.h</in>
+        <in>autolink.cc</in>
+        <in>autolink.h</in>
+        <in>beam.h</in>
+        <in>bfgs.cc</in>
+        <in>bfgs.h</in>
+        <in>binary.cc</in>
+        <in>binary.h</in>
+        <in>bs.cc</in>
+        <in>bs.h</in>
+        <in>cache.cc</in>
+        <in>cache.h</in>
+        <in>cb.cc</in>
+        <in>cb.h</in>
+        <in>cb_algs.cc</in>
+        <in>cb_algs.h</in>
+        <in>cbify.cc</in>
+        <in>cbify.h</in>
+        <in>comp_io.h</in>
+        <in>config.h</in>
+        <in>constant.h</in>
+        <in>cost_sensitive.cc</in>
+        <in>cost_sensitive.h</in>
+        <in>csoaa.cc</in>
+        <in>csoaa.h</in>
+        <in>ect.cc</in>
+        <in>ect.h</in>
+        <in>example.cc</in>
+        <in>example.h</in>
+        <in>gd.cc</in>
+        <in>gd.h</in>
+        <in>gd_mf.cc</in>
+        <in>gd_mf.h</in>
+        <in>global_data.cc</in>
+        <in>global_data.h</in>
+        <in>hash.cc</in>
+        <in>hash.h</in>
+        <in>io_buf.cc</in>
+        <in>io_buf.h</in>
+        <in>lda_core.cc</in>
+        <in>lda_core.h</in>
+        <in>learner.cc</in>
+        <in>learner.h</in>
+        <in>loss_functions.cc</in>
+        <in>loss_functions.h</in>
+        <in>lrq.cc</in>
+        <in>lrq.h</in>
+        <in>main.cc</in>
+        <in>mf.cc</in>
+        <in>mf.h</in>
+        <in>multiclass.cc</in>
+        <in>multiclass.h</in>
+        <in>network.cc</in>
+        <in>network.h</in>
+        <in>nn.cc</in>
+        <in>nn.h</in>
+        <in>noop.cc</in>
+        <in>noop.h</in>
+        <in>oaa.cc</in>
+        <in>oaa.h</in>
+        <in>parse_args.cc</in>
+        <in>parse_args.h</in>
+        <in>parse_example.cc</in>
+        <in>parse_example.h</in>
+        <in>parse_primitives.cc</in>
+        <in>parse_primitives.h</in>
+        <in>parse_regressor.cc</in>
+        <in>parse_regressor.h</in>
+        <in>parser.cc</in>
+        <in>parser.h</in>
+        <in>print.cc</in>
+        <in>print.h</in>
+        <in>rand48.cc</in>
+        <in>rand48.h</in>
+        <in>reductions.h</in>
+        <in>scorer.cc</in>
+        <in>scorer.h</in>
+        <in>searn.cc</in>
+        <in>searn.h</in>
+        <in>searn_sequencetask.cc</in>
+        <in>searn_sequencetask.h</in>
+        <in>sender.cc</in>
+        <in>sender.h</in>
+        <in>simple_label.cc</in>
+        <in>simple_label.h</in>
+        <in>sparse_dense.cc</in>
+        <in>sparse_dense.h</in>
+        <in>topk.cc</in>
+        <in>topk.h</in>
+        <in>unique_sort.cc</in>
+        <in>unique_sort.h</in>
+        <in>v_array.h</in>
+        <in>v_hashmap.h</in>
+        <in>vw.h</in>
+        <in>vwdll.cpp</in>
+        <in>vwdll.h</in>
+        <in>wap.cc</in>
+        <in>wap.h</in>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>4</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

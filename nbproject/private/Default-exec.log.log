@@ -1,0 +1,264 @@
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	topk.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	cbify.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	nn.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	loss_functions.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	parser.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	bs.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	sender.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	example.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	print.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	noop.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	bfgs.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	mf.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	gd_mf.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	lda_core.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	learner.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	accumulate.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	gd.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	parse_args.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	network.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	sparse_dense.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	scorer.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	parse_example.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	searn_sequencetask.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	searn.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	wap.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	cb_algs.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	cb.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	csoaa.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	lrq.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	cost_sensitive.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	binary.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	autolink.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	ect.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	oaa.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	multiclass.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	simple_label.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	rand48.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	cache.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	unique_sort.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	parse_primitives.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	parse_regressor.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	io_buf.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	global_data.cc
+
+called: /usr/bin/clang++
+	/Users/jyj/vw7_debug2/vowpal_wabbit/vowpalwabbit
+	/usr/bin/clang++
+	-MM
+	hash.cc
+

@@ -1,0 +1,122 @@
+cd vowpalwabbit; /usr/bin/make -j 8 things
+/usr/bin/clang++ -MM topk.cc > topk.d
+/usr/bin/clang++ -MM cbify.cc > cbify.d
+/usr/bin/clang++ -MM bs.cc > bs.d
+/usr/bin/clang++ -MM nn.cc > nn.d
+/usr/bin/clang++ -MM sender.cc > sender.d
+/usr/bin/clang++ -MM loss_functions.cc > loss_functions.d
+/usr/bin/clang++ -MM parser.cc > parser.d
+/usr/bin/clang++ -MM example.cc > example.d
+/usr/bin/clang++ -MM print.cc > print.d
+/usr/bin/clang++ -MM noop.cc > noop.d
+/usr/bin/clang++ -MM bfgs.cc > bfgs.d
+/usr/bin/clang++ -MM mf.cc > mf.d
+/usr/bin/clang++ -MM gd_mf.cc > gd_mf.d
+/usr/bin/clang++ -MM lda_core.cc > lda_core.d
+/usr/bin/clang++ -MM learner.cc > learner.d
+/usr/bin/clang++ -MM gd.cc > gd.d
+/usr/bin/clang++ -MM accumulate.cc > accumulate.d
+/usr/bin/clang++ -MM parse_args.cc > parse_args.d
+/usr/bin/clang++ -MM network.cc > network.d
+/usr/bin/clang++ -MM sparse_dense.cc > sparse_dense.d
+/usr/bin/clang++ -MM scorer.cc > scorer.d
+/usr/bin/clang++ -MM parse_example.cc > parse_example.d
+/usr/bin/clang++ -MM searn_sequencetask.cc > searn_sequencetask.d
+/usr/bin/clang++ -MM searn.cc > searn.d
+/usr/bin/clang++ -MM wap.cc > wap.d
+/usr/bin/clang++ -MM cb_algs.cc > cb_algs.d
+/usr/bin/clang++ -MM cb.cc > cb.d
+/usr/bin/clang++ -MM csoaa.cc > csoaa.d
+/usr/bin/clang++ -MM cost_sensitive.cc > cost_sensitive.d
+/usr/bin/clang++ -MM lrq.cc > lrq.d
+/usr/bin/clang++ -MM binary.cc > binary.d
+/usr/bin/clang++ -MM autolink.cc > autolink.d
+/usr/bin/clang++ -MM ect.cc > ect.d
+/usr/bin/clang++ -MM oaa.cc > oaa.d
+/usr/bin/clang++ -MM multiclass.cc > multiclass.d
+/usr/bin/clang++ -MM simple_label.cc > simple_label.d
+/usr/bin/clang++ -MM rand48.cc > rand48.d
+/usr/bin/clang++ -MM cache.cc > cache.d
+/usr/bin/clang++ -MM unique_sort.cc > unique_sort.d
+/usr/bin/clang++ -MM parse_primitives.cc > parse_primitives.d
+/usr/bin/clang++ -MM parse_regressor.cc > parse_regressor.d
+/usr/bin/clang++ -MM io_buf.cc > io_buf.d
+/usr/bin/clang++ -MM global_data.cc > global_data.d
+/usr/bin/clang++ -MM hash.cc > hash.d
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c main.cc -o main.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c hash.cc -o hash.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c global_data.cc -o global_data.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c io_buf.cc -o io_buf.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c parse_regressor.cc -o parse_regressor.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c parse_primitives.cc -o parse_primitives.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c unique_sort.cc -o unique_sort.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c cache.cc -o cache.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c rand48.cc -o rand48.o
+rand48.cc:11:14: warning: 'long long' is a C++11 extension [-Wc++11-long-long]
+uint64_t a = 0xeece66d5deece66dULL;
+             ^
+1 warning generated.
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c simple_label.cc -o simple_label.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c multiclass.cc -o multiclass.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c oaa.cc -o oaa.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c ect.cc -o ect.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c autolink.cc -o autolink.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c binary.cc -o binary.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c lrq.cc -o lrq.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c cost_sensitive.cc -o cost_sensitive.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c csoaa.cc -o csoaa.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c cb.cc -o cb.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c cb_algs.cc -o cb_algs.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c wap.cc -o wap.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c searn.cc -o searn.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c searn_sequencetask.cc -o searn_sequencetask.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c parse_example.cc -o parse_example.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c scorer.cc -o scorer.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c sparse_dense.cc -o sparse_dense.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c network.cc -o network.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c parse_args.cc -o parse_args.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c accumulate.cc -o accumulate.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c gd.cc -o gd.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c learner.cc -o learner.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c lda_core.cc -o lda_core.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c gd_mf.cc -o gd_mf.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c mf.cc -o mf.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c bfgs.cc -o bfgs.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c noop.cc -o noop.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c print.cc -o print.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c example.cc -o example.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c parser.cc -o parser.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c loss_functions.cc -o loss_functions.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c sender.cc -o sender.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c nn.cc -o nn.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c bs.cc -o bs.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c cbify.cc -o cbify.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c topk.cc -o topk.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c allreduce.cc -o allreduce.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -o active_interactor active_interactor.cc
+parser.cc:449:26: warning: 'daemon' is deprecated: first deprecated in OS X 10.5 [-Wdeprecated-declarations]
+      if (!all.active && daemon(1,1))
+                         ^
+/usr/include/stdlib.h:292:6: note: 'daemon' declared here
+int      daemon(int, int) __DARWIN_1050(daemon) __OSX_AVAILABLE_BUT_DEPRECATED(__MAC_10_0, __MAC_10_5, __IPHONE_2_0, __IPHONE_2_0);
+         ^
+ar rcs liballreduce.a allreduce.o
+1 warning generated.
+ar rcs libvw.a hash.o global_data.o io_buf.o parse_regressor.o parse_primitives.o unique_sort.o cache.o rand48.o simple_label.o multiclass.o oaa.o ect.o autolink.o binary.o lrq.o cost_sensitive.o csoaa.o cb.o cb_algs.o wap.o searn.o searn_sequencetask.o parse_example.o scorer.o sparse_dense.o network.o parse_args.o accumulate.o gd.o learner.o lda_core.o gd_mf.o mf.o bfgs.o noop.o print.o example.o parser.o loss_functions.o sender.o nn.o bs.o cbify.o topk.o
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -L/opt/local/lib -L. -o vw main.o -l vw -l allreduce -lboost_program_options-mt -lboost_serialization-mt -l pthread -l z
+cd cluster; /usr/bin/make
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -c spanning_tree.cc -o spanning_tree.o
+spanning_tree.cc:153:7: warning: 'daemon' is deprecated: first deprecated in OS X 10.5 [-Wdeprecated-declarations]
+  if (daemon(1,1))
+      ^
+/usr/include/stdlib.h:292:6: note: 'daemon' declared here
+int      daemon(int, int) __DARWIN_1050(daemon) __OSX_AVAILABLE_BUT_DEPRECATED(__MAC_10_0, __MAC_10_5, __IPHONE_2_0, __IPHONE_2_0);
+         ^
+1 warning generated.
+/usr/bin/clang++ -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -o spanning_tree spanning_tree.o 
+cd library; /usr/bin/make -j 8
+/usr/bin/clang++ -g -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -o ezexample_predict ezexample_predict.cc -L ../vowpalwabbit -l vw -l allreduce -L/opt/local/lib -l boost_program_options-mt -l z -l pthread
+/usr/bin/clang++ -g -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -o ezexample_train ezexample_train.cc -L ../vowpalwabbit -l vw -l allreduce -L/opt/local/lib -l boost_program_options-mt -l z -l pthread
+/usr/bin/clang++ -g -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -o library_example library_example.cc -L ../vowpalwabbit -l vw -l allreduce -L/opt/local/lib -l boost_program_options-mt -l z -l pthread
+/usr/bin/clang++ -g -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -o recommend recommend.cc -L ../vowpalwabbit -l vw -l allreduce -L/opt/local/lib -l boost_program_options-mt -l z -l pthread
+/usr/bin/clang++ -g -D__extern_always_inline=inline -Wall -pedantic -ffast-math -D_FILE_OFFSET_BITS=64 -I /opt/local/include -g -O0 -o gd_mf_weights gd_mf_weights.cc -L ../vowpalwabbit -l vw -l allreduce -L/opt/local/lib -l boost_program_options-mt -l z -l pthread
